@@ -105,4 +105,9 @@ let form = document.querySelector("form")
 
     e.target.reset();
 
+ });
+
+ let footer = document.querySelector("footer")
+ footer.addEventListener("click", (e)=>{
+
  })

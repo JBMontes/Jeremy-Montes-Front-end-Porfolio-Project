@@ -1,6 +1,7 @@
 
 body{
     background-color: chocolate;
+    height:950px;
 }
 
 h1{
@@ -9,6 +10,8 @@ h1{
     color: whitesmoke;
      position: relative;
     border-bottom: 3px solid black;
+    animation-name: headers;
+    animation-duration: 4s;
 }
 
 .display {
@@ -63,6 +66,7 @@ button{
     font-size: small;
     position:relative;
     top: 60px;
+    border-radius: 50px;
 }
 .formSection{
     display:flex;
@@ -70,3 +74,37 @@ button{
     position:relative;
     top:200px;
 }
+
+.footer{
+    padding:6px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    position:relative;
+    top:300px;
+    border-top: 2px solid black;
+  
+
+}
+
+footer{
+    border:1px solid yellow;
+    border-radius: 35px;
+    background-color: burlywood;
+    padding:5px;
+   
+
+}
+footer:hover{
+    background-color: white
+    }
+    
+    @keyframes headers{
+        from{color:chocolate}
+        to{color:whitesmoke}
+    }
+
+    a{
+        text-decoration: none;
+    }
