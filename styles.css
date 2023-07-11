@@ -2,6 +2,7 @@
 body{
     background-color: chocolate;
     height:950px;
+
 }
 
 h1{
@@ -107,4 +108,16 @@ footer:hover{
 
     a{
         text-decoration: none;
+    }
+
+    #submitButton{
+       border-radius: 20px;
+    }
+
+    #submitButton:hover{
+        background-color: greenyellow;
+    }
+   
+    button:hover{
+        background-color: red;
     }
