@@ -133,8 +133,9 @@ footer:hover{
         grid-column: 6;
         position: relative;
         top: 90px;
+        background-color: wheat;
     }
 
     .more:hover{
-        background-color: burlywood;
+        background-color: whitesmoke;
     }

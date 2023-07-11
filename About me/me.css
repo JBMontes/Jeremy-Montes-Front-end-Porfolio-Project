@@ -136,3 +136,25 @@ header a:hover{
 footer img:hover{
     background-color: aliceblue;
 }
+.PandImg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.PandImg img{
+    grid-column: 1;
+    height:400px;
+    width:400px;
+    animation-name: image;
+    animation-duration: 4s;
+    position:relative;
+    left: -13px
+}
+.PandImg p{
+    grid-column: 2;
+   
+}
+
+@keyframes image{
+    from{left: 400px}
+    to{left: -13px}
+}
