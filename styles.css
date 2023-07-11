@@ -121,3 +121,20 @@ footer:hover{
     button:hover{
         background-color: red;
     }
+
+    .moreButton{
+        display: grid;
+        grid-template-columns: repeat(11,1fr );
+    }
+    .more{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 6;
+        position: relative;
+        top: 90px;
+    }
+
+    .more:hover{
+        background-color: burlywood;
+    }
