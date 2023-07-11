@@ -43,7 +43,7 @@ footer ul{
    padding:13px;
     background-image: url(./assets/1000_F_375500531_WjntKoDjk2R2H7g2uyzoadVs2FjxsDjE.jpg);
     background-size:auto;
-    width:100%;
+    /* width:100%; */
 }
 
 header{
@@ -115,4 +115,24 @@ header a{
 }
 header a:hover{
     color:gold
+}
+.resume{
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+#resume{
+
+    border: 2px solid brown;
+    border-radius: 50px;
+    padding:2px; 
+    grid-column: 5;
+}
+
+#resume:hover{
+    background-color: aliceblue;
+}
+
+footer img:hover{
+    background-color: aliceblue;
 }
