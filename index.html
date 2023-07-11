@@ -20,7 +20,7 @@
     <h2>Update</h2>
     <label>
         <strong>Year:</strong>
-        <input type="text" id="year" name="year" required oninvalid="this.setCustomValidity(`What Year Do You Have in Mind?`)" oninput="setCustomValidity('')"/>
+        <input type="number" id="year" name="year" min="0" required oninvalid="this.setCustomValidity(`What Year Do You Have in Mind?`)" oninput="setCustomValidity('')"/>
       </label>
       <strong>Fact:</strong>
       <textarea id="fact" name="fact" rows="5" cols="60" required oninvalid="this.setCustomValidity(`What's the fact?`)" oninput="setCustomValidity('')"></textarea>

@@ -135,7 +135,7 @@ let form = document.querySelector("form")
     
     fetch("http://numbersapi.com/random/year?json")
     .then((response)=>response.json())
-    .then((JSONresponse)=> {return displayCard3(JSONresponse)})
+    .then((JSONresponse)=>  displayCard3(JSONresponse))
     
     .catch((err)=>{ 
         console.log(err);

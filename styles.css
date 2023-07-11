@@ -1,7 +1,7 @@
 
 body{
     background-color: chocolate;
-    height:950px;
+   
 
 }
 
@@ -22,7 +22,7 @@ h1{
     justify-content: space-around;
     padding: 20px;
     position: relative;
-    top:100px;
+    top:30px;
     padding-left: 10px;
 }
 
@@ -73,7 +73,7 @@ button{
     display:flex;
     justify-content: center;
     position:relative;
-    top:200px;
+    top:150px;
 }
 
 .footer{
@@ -83,7 +83,7 @@ button{
     align-items: flex-end;
     flex-direction: row;
     position:relative;
-    top:300px;
+    top:250px;
     border-top: 2px solid black;
   
 
@@ -94,8 +94,8 @@ footer{
     border-radius: 35px;
     background-color: burlywood;
     padding:5px;
-   
-
+    position: relative;
+    top: 10px;
 }
 footer:hover{
     background-color: white
