@@ -78,6 +78,7 @@ fetch("http://numbersapi.com/random/year?json")
   .catch((err) => {
     console.log(err);
   });
+  
 let form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
