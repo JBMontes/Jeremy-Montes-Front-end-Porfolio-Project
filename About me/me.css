@@ -1,181 +1,182 @@
-*{
-    padding:0;
-    margin:0;
+* {
+  padding: 0;
+  margin: 0;
 }
-h1,h2, h3{
-    text-align: center;
+h1,
+h2,
+h3 {
+  text-align: center;
 }
-header{
-    grid-template-columns: repeat(3,1fr );
-}
-
-h1{
-  color:white;
-  display:grid;
-    grid-column: 2;
-
-
-}
-img{
-    width: 50px;
-    height: 35px;
-    aspect-ratio: 3/2;
+header {
+  grid-template-columns: repeat(3, 1fr);
 }
 
-ul{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around ;
-    align-items: flex-start;
-    list-style-type: none;
+h1 {
+  color: white;
+  display: grid;
+  grid-column: 2;
+}
+img {
+  width: 50px;
+  height: 35px;
+  aspect-ratio: 3/2;
 }
 
-body{
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style-type: none;
+}
+
+body {
   background-color: wheat;
 }
 
-#resume{
-    display:flex;
-   justify-content: center;
+#resume {
+  display: flex;
+  justify-content: center;
 }
 
-footer ul{
-   padding:13px;
-    background-image: url(./assets/1000_F_375500531_WjntKoDjk2R2H7g2uyzoadVs2FjxsDjE.jpg);
-    background-size:auto;
-    /* width:100%; */
+footer ul {
+  padding: 13px;
+  background-image: url(./assets/1000_F_375500531_WjntKoDjk2R2H7g2uyzoadVs2FjxsDjE.jpg);
+  background-size: auto;
+  /* width:100%; */
 }
 
-header{
-    background-image: url(./assets/1000_F_375500531_WjntKoDjk2R2H7g2uyzoadVs2FjxsDjE.jpg);
-    background-size:cover;
-    padding:10px;
-    /* opacity: .8; */
+header {
+  background-image: url(./assets/1000_F_375500531_WjntKoDjk2R2H7g2uyzoadVs2FjxsDjE.jpg);
+  background-size: cover;
+  padding: 10px;
+  /* opacity: .8; */
 }
 
-footer img{
-    border: 2px solid black;
-    border-radius: 20px;
-   background-color: wheat;
-   padding: 6px;
+footer img {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: wheat;
+  padding: 6px;
 }
 
-aside{
-    padding: 12px;
+aside {
+  padding: 12px;
 }
 
-
-h3{
-    padding:38px;
+h3 {
+  padding: 38px;
 }
 
-.text{
-    display: flex;
-    flex-direction: row;
-    /* border: 3px solid black; */
-   justify-content: center;
-
-
-}
-p{
-    border: 3px solid brown;
-    width: 300px;
-  
-    border-radius: 20px;;
-    display:flex;
-    justify-content: center;
-    padding: 10px;
-   
+.text {
+  display: flex;
+  flex-direction: row;
+  /* border: 3px solid black; */
+  justify-content: center;
 }
 
-a{
-    text-decoration: none;
+p {
+  border: 3px solid brown;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
-a:hover{
-    color:black
+a {
+  text-decoration: none;
 }
 
-.project a{
-    border: 2px solid brown;
-    border-radius: 50px;
-    padding:3px;
+a:hover {
+  color: black;
 }
 
-.project a:hover{
-    background-color: aliceblue;
-    border:none;
-    background-color: wheat;
+.project a {
+  border: 2px solid brown;
+  border-radius: 50px;
+  padding: 3px;
 }
 
-header a{
-    font-size: xx-large;
-    color:aliceblue;
-   position: relative;
-   top: -25px;
- 
-}
-header a:hover{
-    color:gold
-}
-.resume{
-    display:grid;
-    grid-template-columns: repeat(9, 1fr);
+.project a:hover {
+  background-color: aliceblue;
+  border: none;
+  background-color: wheat;
 }
 
-#resume{
-
-    border: 2px solid brown;
-    border-radius: 50px;
-    padding:2px; 
-    grid-column: 5;
+header a {
+  font-size: xx-large;
+  color: aliceblue;
+  position: relative;
+  top: -25px;
+}
+header a:hover {
+  color: gold;
+}
+.resume {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
 }
 
-#resume:hover{
-    background-color: aliceblue;
-   
+#resume {
+  border: 2px solid brown;
+  border-radius: 50px;
+  padding: 2px;
+  grid-column: 5;
 }
 
-footer img:hover{
-    background-color: aliceblue;
+#resume:hover {
+  background-color: aliceblue;
 }
-.PandImg{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+footer img:hover {
+  background-color: aliceblue;
 }
-.PandImg img{
-    grid-column: 1;
-    height:400px;
-    width:400px;
-    animation-name: image;
-    animation-duration: 4s;
-    position:relative;
+.PandImg {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.PandImg img {
+  grid-column: 1;
+  height: 400px;
+  width: 400px;
+  animation-name: image;
+  animation-duration: 4s;
+  position: relative;
+  left: -13px;
+  border-radius: 100%;
+  border: 2px solid brown;
+}
+.PandImg p {
+  grid-column: 2;
+}
+
+.PandImg p:hover {
+  color: brown;
+}
+h2,
+h3 {
+  animation-name: hTwoThree;
+  animation-duration: 10s;
+}
+
+h3 {
+  text-decoration: underline;
+}
+@keyframes image {
+  from {
+    left: -800px;
+  }
+  to {
     left: -13px;
-    border-radius: 100%;
-    border:2px solid brown
-}
-.PandImg p{
-    grid-column: 2;
-   
+  }
 }
 
-.PandImg p:hover{
-    color:brown
-}
- h2,h3{
-    animation-name: hTwoThree;
-    animation-duration: 10s;
-}
-
-h3{
-    text-decoration: underline;
-}
-@keyframes image{
-    from{left: -800px}
-    to{left: -13px}
-}
-
-@keyframes hTwoThree{
-    from{color:wheat}
-    to{color:black}
+@keyframes hTwoThree {
+  from {
+    color: wheat;
+  }
+  to {
+    color: black;
+  }
 }

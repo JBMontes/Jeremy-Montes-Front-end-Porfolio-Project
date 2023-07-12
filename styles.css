@@ -1,141 +1,138 @@
-
-body{
-    background-color: chocolate;
-   
-
+body {
+  background-color: chocolate;
 }
 
-h1{
-
-    text-align: center;
-    color: whitesmoke;
-     position: relative;
-    border-bottom: 3px solid black;
-    animation-name: headers;
-    animation-duration: 4s;
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  position: relative;
+  border-bottom: 3px solid black;
+  animation-name: headers;
+  animation-duration: 4s;
 }
 
 .display {
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px;
-    position: relative;
-    top:30px;
-    padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  position: relative;
+  top: 30px;
+  padding-left: 10px;
 }
 
-.number{
-    text-align: center;
-    border: 10px solid rgb(67, 46, 5);
-    background-color: wheat;
-    width: 250px;
-    height:230px;
-    border-radius: 100px;
+.number {
+  text-align: center;
+  border: 10px solid rgb(67, 46, 5);
+  background-color: wheat;
+  width: 250px;
+  height: 230px;
+  border-radius: 100px;
 }
 
-.number:hover{
-background-color: white
+.number:hover {
+  background-color: white;
 }
 
-form{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    /* position: relative;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative;
     top:250px;
     left:390px; */
-    border: 10px solid rgb(241, 237, 10);
-    background-color: wheat;
-    border-radius:  35%;
-    width:50%
+  border: 10px solid rgb(241, 237, 10);
+  background-color: wheat;
+  border-radius: 35%;
+  width: 50%;
 }
 form:hover {
-    background-color: white;
+  background-color: white;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+  color: black;
+  font-size: small;
+  position: relative;
+  top: 60px;
+  border-radius: 50px;
+}
+.formSection {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
+
+.footer {
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  position: relative;
+  top: 250px;
+  border-top: 2px solid black;
+}
+
+footer {
+  border: 1px solid yellow;
+  border-radius: 35px;
+  background-color: burlywood;
+  padding: 5px;
+  position: relative;
+  top: 10px;
+}
+footer:hover {
+  background-color: white;
+}
+
+@keyframes headers {
+  from {
+    color: chocolate;
   }
-
-label{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
+  to {
+    color: whitesmoke;
+  }
 }
 
-button{
-
-    color: black;
-    font-size: small;
-    position:relative;
-    top: 60px;
-    border-radius: 50px;
-}
-.formSection{
-    display:flex;
-    justify-content: center;
-    position:relative;
-    top:150px;
+a {
+  text-decoration: none;
 }
 
-.footer{
-    padding:6px;
-    display:flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: row;
-    position:relative;
-    top:250px;
-    border-top: 2px solid black;
-  
-
+#submitButton {
+  border-radius: 20px;
 }
 
-footer{
-    border:1px solid yellow;
-    border-radius: 35px;
-    background-color: burlywood;
-    padding:5px;
-    position: relative;
-    top: 10px;
+#submitButton:hover {
+  background-color: greenyellow;
 }
-footer:hover{
-    background-color: white
-    }
-    
-    @keyframes headers{
-        from{color:chocolate}
-        to{color:whitesmoke}
-    }
 
-    a{
-        text-decoration: none;
-    }
+button:hover {
+  background-color: red;
+}
 
-    #submitButton{
-       border-radius: 20px;
-    }
+.moreButton {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+}
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 6;
+  position: relative;
+  top: 90px;
+  background-color: wheat;
+}
 
-    #submitButton:hover{
-        background-color: greenyellow;
-    }
-   
-    button:hover{
-        background-color: red;
-    }
-
-    .moreButton{
-        display: grid;
-        grid-template-columns: repeat(11,1fr );
-    }
-    .more{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        grid-column: 6;
-        position: relative;
-        top: 90px;
-        background-color: wheat;
-    }
-
-    .more:hover{
-        background-color: whitesmoke;
-    }
+.more:hover {
+  background-color: whitesmoke;
+}
