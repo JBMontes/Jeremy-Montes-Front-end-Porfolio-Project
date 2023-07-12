@@ -1,6 +1,6 @@
 # Jeremy-Montes-Front-end-Porfolio-Project
 
-Welcome to Yearly, the application that generates random yearly facts depending on the number.
+Welcome to Yearly, the application that generates random yearly facts depending on the number with the help of the NumbersApi (http://numbersapi.com/#42).
 
 As the page loads, there will be three cards with random facts. If the user is not satisfied with those, just click on the "More Facts" button to see more. 
 
