@@ -162,9 +162,20 @@ footer img:hover{
 .PandImg p:hover{
     color:brown
 }
+ h2,h3{
+    animation-name: hTwoThree;
+    animation-duration: 10s;
+}
 
+h3{
+    text-decoration: underline;
+}
 @keyframes image{
     from{left: -800px}
     to{left: -13px}
 }
 
+@keyframes hTwoThree{
+    from{color:wheat}
+    to{color:black}
+}
