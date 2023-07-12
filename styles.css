@@ -9,6 +9,9 @@ h1 {
   border-bottom: 3px solid black;
   animation-name: headers;
   animation-duration: 4s;
+  font-family:monospace ;
+  font-size: 35px
+
 }
 
 .display {
