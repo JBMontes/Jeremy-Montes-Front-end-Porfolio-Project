@@ -29,14 +29,13 @@ fetch("http://numbersapi.com/random/year?json")
     console.log(err);
   });
 
-
 fetch("http://numbersapi.com/random/year?json")
   .then((response) => response.json())
   .then(displayCard)
   .catch((err) => {
     console.log(err);
   });
-  
+
 let form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -65,12 +64,8 @@ form.addEventListener("submit", (e) => {
   e.target.reset();
 });
 
-let footer = document.querySelector("footer");
-footer.addEventListener("click", (e) => {});
-
 let more = document.querySelector(".more");
 more.addEventListener("click", (e) => {
-  
   fetch("http://numbersapi.com/random/year?json")
     .then((response) => response.json())
     .then(displayCard)
