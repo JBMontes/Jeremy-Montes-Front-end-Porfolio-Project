@@ -70,7 +70,7 @@ footer.addEventListener("click", (e) => {});
 
 let more = document.querySelector(".more");
 more.addEventListener("click", (e) => {
-  function displayCard3(results) {
+  function displayCard(results) {
     let div = document.createElement("div");
     div.classList.add("number");
     let number = document.createElement("p");
