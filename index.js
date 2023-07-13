@@ -70,23 +70,7 @@ footer.addEventListener("click", (e) => {});
 
 let more = document.querySelector(".more");
 more.addEventListener("click", (e) => {
-  function displayCard(results) {
-    let div = document.createElement("div");
-    div.classList.add("number");
-    let number = document.createElement("p");
-    number.classList.add("num");
-    number.innerText = results.number;
-    let type = document.createElement("p");
-    type.classList.add("type");
-    type.innerText = results.type.toUpperCase();
-    let text = document.createElement("p");
-    text.classList.add("text");
-    text.innerText = results.text;
-    div.append(type, number, text);
-    let display = document.querySelector(".display");
-    display.append(div);
-  }
-
+  
   fetch("http://numbersapi.com/random/year?json")
     .then((response) => response.json())
     .then(displayCard)
