@@ -17,64 +17,22 @@ function displayCard(results) {
 
 fetch("http://numbersapi.com/random/year?json")
   .then((response) => response.json())
-  .then((JSONresponse) => {
-    return displayCard(JSONresponse);
-  })
-
+  .then(displayCard)
   .catch((err) => {
     console.log(err);
   });
 
-function displayCard2(results) {
-  let div = document.createElement("div");
-  div.classList.add("number");
-  let number = document.createElement("p");
-  number.classList.add("num");
-  number.innerText = results.number;
-  let type = document.createElement("p");
-  type.classList.add("type");
-  type.innerText = results.type.toUpperCase();
-  let text = document.createElement("p");
-  text.classList.add("text");
-  text.innerText = results.text;
-  div.append(type, number, text);
-  let display = document.querySelector(".display");
-  display.append(div);
-}
-
 fetch("http://numbersapi.com/random/year?json")
   .then((response) => response.json())
-  .then((JSONresponse) => {
-    return displayCard2(JSONresponse);
-  })
-
+  .then(displayCard)
   .catch((err) => {
     console.log(err);
   });
 
-function displayCard3(results) {
-  let div = document.createElement("div");
-  div.classList.add("number");
-  let number = document.createElement("p");
-  number.classList.add("num");
-  number.innerText = results.number;
-  let type = document.createElement("p");
-  type.classList.add("type");
-  type.innerText = results.type.toUpperCase();
-  let text = document.createElement("p");
-  text.classList.add("text");
-  text.innerText = results.text;
-  div.append(type, number, text);
-  let display = document.querySelector(".display");
-  display.append(div);
-}
 
 fetch("http://numbersapi.com/random/year?json")
   .then((response) => response.json())
-  .then((JSONresponse) => {
-    return displayCard3(JSONresponse);
-  })
-
+  .then(displayCard)
   .catch((err) => {
     console.log(err);
   });
@@ -131,8 +89,7 @@ more.addEventListener("click", (e) => {
 
   fetch("http://numbersapi.com/random/year?json")
     .then((response) => response.json())
-    .then((JSONresponse) => displayCard3(JSONresponse))
-
+    .then(displayCard)
     .catch((err) => {
       console.log(err);
     });
