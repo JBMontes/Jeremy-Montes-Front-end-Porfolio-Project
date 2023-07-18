@@ -1,42 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
+     <link rel="stylesheet" href="styles.css" />
     <script src="./index.js" defer></script>
-    <link rel="icon" type="image/x-icon" sizes="16x16" href="./assets/favicon-16x16.png">
+     <link rel="icon" type="image/x-icon" sizes="16x16" href="./assets/favicon-16x16.png">
     <title>Yearly</title>
 </head>
-
 <body>
     <h1>Yearly</h1>
-    <div class="display"></div>
-    <div class="moreButton">
-        <button class="more">More Facts</button>
-    </div>
-    <div class="formSection">
-        <form name="mathForm" class="mathForm">
-            <h2>Update</h2>
-            <label>
-                <strong>Year:</strong>
-                <input type="number" id="year" name="year" min="-1000" required
-                    oninvalid="this.setCustomValidity(`What Year Do You Have in Mind?`)"
-                    oninput="setCustomValidity('')" />
-            </label>
-            <strong>Fact:</strong>
-            <textarea id="fact" name="fact" rows="5" cols="60" required
-                oninvalid="this.setCustomValidity(`What's the fact?`)" oninput="setCustomValidity('')"></textarea>
-            </label>
-            <br />
-            <input id="submitButton" type="submit" value="✔Submit" title="Submit" />
-        </form>
-    </div>
-    <div class="footer">
-        <footer>
-            <a href="./About me/me.html">About Me</a>
-        </footer>
-    </div>
+<div class="display"></div>
+<div class="moreButton">
+<button class="more">More Facts</button>
+</div>
+<div class="formSection">
+    <form name="mathForm" class="mathForm">
+    <h2>Update</h2>
+    <label>
+        <strong>Year:</strong>
+        <input type="number" id="year" name="year" min="-1000" required oninvalid="this.setCustomValidity(`What Year Do You Have in Mind?`)" oninput="setCustomValidity('')"/>
+      </label>
+      <strong>Fact:</strong>
+      <textarea id="fact" name="fact" rows="6" cols="60" required oninvalid="this.setCustomValidity(`What's the fact?`)" oninput="setCustomValidity('')"></textarea>
+    </label>
+    <br/>   
+    <input id="submitButton" type="submit" value="✔Submit" title="Submit"/>
+</form>
+</div>
+<div class="footer">
+<footer> 
+    <a href="./About me/me.html">About Me</a>
+</footer>
+</div>
 </body>
 </html>
